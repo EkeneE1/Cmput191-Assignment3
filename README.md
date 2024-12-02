@@ -8,6 +8,16 @@ The PPP is essentially an atypical exchange rate used to compare the value of di
 ## The Chosen Product
 The product we have chosen are apples. Over more than 50% consume a substantial amount of apples from many different parts of the globe. So this provides a wide dataset from many different currencies, regions and lifestyles around the world! 
 
+
+## External Factor
+Apples were selected as the product for this analysis due to their status as a staple fruit with global availability and relatively standardized pricing, making them an ideal product for comparison across different countries. For the external factor analysis, exchange rates were examined, as they significantly influence the cost of imported goods. Fluctuations in exchange rates can result in substantial price differences for the same product in different countries. By comparing apple prices across various countries and incorporating exchange rate data, insights can be gained into how currency fluctuations impact the affordability of apples in different markets.
+
+
+
+
+
+
+
 ## Citations
 Numbeo. (n.d.). Cost of living country price rankings. Numbeo. 
   Retrieved December 1, 2024, from https://www.numbeo.com/cost-of-living/country_price_rankings?itemId=110
