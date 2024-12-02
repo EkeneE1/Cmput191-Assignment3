@@ -10,7 +10,7 @@ The product we have chosen are apples. Over more than 50% consume a substantial 
 
 
 ## External Factor
-Apples were selected as the product for this analysis due to their status as a staple fruit with global availability and relatively standardized pricing, making them an ideal product for comparison across different countries. For the external factor analysis, exchange rates were examined, as they significantly influence the cost of imported goods. Fluctuations in exchange rates can result in substantial price differences for the same product in different countries. By comparing apple prices across various countries and incorporating exchange rate data, insights can be gained into how currency fluctuations impact the affordability of apples in different markets.
+Apples were selected as the product for this analysis due to their status as a staple fruit with global availability and relatively standardized pricing, making them an ideal product for comparison across different countries. For the external factor analysis, exchange rates were examined, as they significantly influence the cost of imported goods. According to Investopedia, an exchange rate is the value of one currency for the purpose of conversion to another, essentially determining how much of one currency is needed to purchase another. Exchange rates fluctuate based on economic factors such as interest rates, inflation, and political stability, affecting the cost of goods and services between countries ("Exchange Rates," 2024). Fluctuations in exchange rates can result in substantial price differences for the same product in different countries. By comparing apple prices across various countries and incorporating exchange rate data, insights can be gained into how currency fluctuations impact the affordability of apples in different markets.
 
 
 
@@ -27,3 +27,6 @@ The Economist. (2024, September 21). The Big Mac index. The Economist.
 
 Investopedia. (2024, November 12). Purchasing power parity (PPP). Investopedia. 
   Retrieved December 1, 2024, from https://www.investopedia.com/updates/purchasing-power-parity-ppp/
+
+ Exchange Rates: What They Are, How They Work, and Why They Fluctuate. (2024). Investopedia. https://www.investopedia.com/terms/e/exchangerate.asp
+
