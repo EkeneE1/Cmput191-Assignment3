@@ -8,7 +8,7 @@ The PPP is essentially an atypical exchange rate used to compare the value of di
 ## The Chosen Product
 The product we have chosen are apples. Over more than 50% consume a substantial amount of apples from many different parts of the globe. So this provides a wide dataset from many different currencies, regions and lifestyles around the world! 
 
-##Citations
+## Citations
 Numbeo. (n.d.). Cost of living country price rankings. Numbeo. Retrieved December 1, 2024, from https://www.numbeo.com/cost-of-living/country_price_rankings?itemId=110
 
 The Economist. (2024, September 21). The Big Mac index. The Economist. Retrieved December 1, 2024, from https://www.economist.com/interactive/big-mac-index
