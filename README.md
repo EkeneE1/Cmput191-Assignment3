@@ -13,10 +13,13 @@ The product we have chosen are apples. Over more than 50% consume a substantial 
 Apples were selected as the product for this analysis due to their status as a staple fruit with global availability and relatively standardized pricing, making them an ideal product for comparison across different countries. For the external factor analysis, exchange rates were examined, as they significantly influence the cost of imported goods. According to Investopedia, an exchange rate is the value of one currency for the purpose of conversion to another, essentially determining how much of one currency is needed to purchase another. Exchange rates fluctuate based on economic factors such as interest rates, inflation, and political stability, affecting the cost of goods and services between countries ("Exchange Rates," 2024). Fluctuations in exchange rates can result in substantial price differences for the same product in different countries. By comparing apple prices across various countries and incorporating exchange rate data, insights can be gained into how currency fluctuations impact the affordability of apples in different markets.
 
 
+## The Apples Index
 
+# 1. Retrieving Cost of Apples
+Numbeo.com shows the price of apples by country per one kilogram. Our group scraped this data from the website as the foundational building block to create our apples index. Next we used the html parser to find the relevant section and table on the webpage. 
 
-
-
+# 2. Creating a Table
+First we added the correct place and ID. Next we took 15 countries; Kazakhstan, Portugal, Greece, Lativa, Iran, Morocco, Panama, Iraq, Chile, Nepal, Argentina, Ukraine, India, Canada and added them to a table by country and price. During this process we also converted the price numbers to float values as this will make it easier to manipulate them in the future.
 
 ## Citations
 Numbeo. (n.d.). Cost of living country price rankings. Numbeo. 
