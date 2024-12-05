@@ -46,7 +46,7 @@ In this next section, we imported data on Apple production in each country in un
 ### 8. Bringing it All Together
 The two tables were joined using **.join** we joined the table from our 'Calculations and Visualizations' section with the table from 'Applying Our External Factor' This can be seen below:
 ###
-![Screenshot 2024-12-04 214804](https://github.com/user-attachments/assets/ac776534-e11a-4c82-bb49-b34a3e5630da)
+![image](https://github.com/user-attachments/assets/1110091e-fede-47cb-9e4b-a18fc986be35)
 
 
 We then created a bar graph to show the price differences for each country with respect to Canada:
