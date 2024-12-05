@@ -55,7 +55,8 @@ Finally we created a scatter plot of Price Difference vs Apple Production to sho
 Using a function we converted the array to standard units and then calculated the Z score which was -0.16 (rounded to 2 decimal places)
 
 
-
+## Conclusion 🍎
+Our analysis compared apple prices across 20 countries we explored how exchange rates affect price differences. We did this by scraping data from Numbeo and including VAT rates, we standardized prices for comparison. The results highlight the influence of exchange rates on global prices and show how factors like local production and taxes impact the affordability of products
 
 ## Citations
 Numbeo. (n.d.). Cost of living country price rankings. Numbeo. 
