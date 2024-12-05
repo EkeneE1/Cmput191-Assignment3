@@ -69,5 +69,5 @@ The Economist. (2024, September 21). The Big Mac index. The Economist.
 Investopedia. (2024, November 12). Purchasing power parity (PPP). Investopedia. 
   Retrieved December 1, 2024, from https://www.investopedia.com/updates/purchasing-power-parity-ppp/
 
- Exchange Rates: What They Are, How They Work, and Why They Fluctuate. (2024). Investopedia. https://www.investopedia.com/terms/e/exchangerate.asp
+FAO Stats: https://www.fao.org/faostat/en/#data/QCL
 
