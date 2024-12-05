@@ -19,7 +19,10 @@ Apples were selected as the product for this analysis due to their status as a s
 Numbeo.com shows the price of apples by country per one kilogram. Our group scraped this data from the website as the foundational building block to create our apples index. Next we used the html parser to find the relevant section and table on the webpage. 
 
 ### 2. Creating a Table
-First we added the correct place and ID. Next we took 15 countries; Kazakhstan, Portugal, Greece, Lativa, Iran, Morocco, Panama, Iraq, Chile, Nepal, Argentina, Ukraine, India, Canada and added them to a table by country and price. During this process we also converted the price numbers to float values as this will make it easier to manipulate them in the future.
+First we added the correct place and ID. Next we took 15 countries; Kazakhstan, Portugal, Greece, Lativa, Iran, Morocco, Panama, Iraq, Chile, Nepal, Argentina, Ukraine, India, Canada and added them to a table by country and price. During this process we also converted the price numbers to float values as this will make it easier to manipulate them in the future. The countries we chose were from many different regions with different lifestyles around the world which should provide us with a nice data spread.
+
+### 3. Converting Currencies
+In this step we created a function to conver
 
 ## Citations
 Numbeo. (n.d.). Cost of living country price rankings. Numbeo. 
