@@ -32,7 +32,10 @@ VAT stands for Value-Added Tax (rate), it is a consumption tax that is levied on
 We cleaned the data by removing the unwanted countries and removing extra spaces from the values.
 
 ### 6. Calculations and Visualizations
-First, we calculated the price difference in CAD by subtracting the 'Price with Tax' column by 8.55, which is the Canadian price. Then we filtered out Canada's data as it will always give zero price difference as we take references from Canada. After this, we created a bar chart from this data and added a red line for Canada's price difference. For this, we used **plt.()** function. The result is shown below:
+First, we calculated the price difference in CAD by subtracting the 'Price with Tax' column by 8.55, which is the Canadian price. Then we filtered out Canada's data as it will always give zero price difference as we take references from Canada. The table looks like this:
+-----include photo here---
+
+After this, we created a bar chart from this data and added a red line for Canada's price difference. For this, we used **plt.()** function. The result is shown below:
 
 ![image](https://github.com/user-attachments/assets/bea91f0f-beab-432e-8cf9-7bb33ddc1bce)
 
