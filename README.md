@@ -53,11 +53,11 @@ Finally, we created a scatter plot of Price Difference vs Apple Production to sh
 ![image](https://github.com/user-attachments/assets/81877f84-72aa-4a28-acc5-b85d2c6c7b94)
 
 ### 9. Calculating Z Score
-Using the Correlation function we converted the array to standard units and then calculated the Z score which was obtained as -0.16 (rounded to 2 decimal places).
+Using the Correlation function we converted the array to standard units and then calculated the Z score for the relation between the apple production and prices in different countries. It was obtained as -0.16 (rounded to 2 decimal places). This gives a weak correlation and no apparent causation between the two.
 
 
 ## Conclusion 🍎
-Our analysis compared apple prices across 15 countries we explored how exchange rates affect price differences. We did this by scraping data from Numbeo and including VAT rates, we standardized prices for comparison. The results highlight the influence of Production quantity on global prices and show how factors like local production and taxes impact the affordability of products in countries.
+Our analysis compared apple prices across 15 countries we explored how exchange rates affect price differences. We did this by scraping data from Numbeo and including VAT rates, we standardized prices for comparison. The results highlight the influence of Production quantity on global prices and show how factors like local production and taxes impact the affordability of products in countries. The final r-value of -0.16 tells that there is a weak negative correlation and slightly conform with the initial hypothesis. However, we need more data to make this conclusion.
 
 ## Citations
 Numbeo. (n.d.). Cost of living country price rankings. Numbeo. 
