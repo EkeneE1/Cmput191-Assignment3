@@ -22,7 +22,18 @@ Numbeo.com shows the price of apples by country per one kilogram. Our group scra
 First we added the correct place and ID. Next we took 15 countries; Kazakhstan, Portugal, Greece, Lativa, Iran, Morocco, Panama, Iraq, Chile, Nepal, Argentina, Ukraine, India, Canada and added them to a table by country and price. During this process we also converted the price numbers to float values as this will make it easier to manipulate them in the future. The countries we chose were from many different regions with different lifestyles around the world which should provide us with a nice data spread.
 
 ### 3. Converting Currencies
-In this step we created a function to conver
+In this step we created a function to convert the currencies. Using the currency
+
+### 4. VAT Rate and Application
+VAT stand for value-added tax (rate) is a consumption tax that is levied on goods at each stage of the supply chain. Different countries have different rates of vat tax. Using the Canada Revenue Agency site and taxsummaries.pwc.com our group found the VAT of each country and added it to the table. Next we used a function to apply each tax rate to the price of apples in each country **apply_tax(price, tax_rate)**. This was then applied to the table using **df.apply** and **lamda function**.
+
+### 5. Doing Some Cleaning
+In this section our group dropped the currency symbols so we could begin the math.
+
+### 6. Calculations and Visualizations
+First we calculated the price difference in CAD by subtracting the 'Price with Tax' column by 8.55 the canadian price. Then we filtered out Canada's date due to it always being zerio as we subtracting from Canada. After this, we created a bar chart from this data and added a red line for Canada's price difference. For this we used **plt.()**. The result is shown below:
+![image](https://github.com/user-attachments/assets/bea91f0f-beab-432e-8cf9-7bb33ddc1bce)
+
 
 ## Citations
 Numbeo. (n.d.). Cost of living country price rankings. Numbeo. 
