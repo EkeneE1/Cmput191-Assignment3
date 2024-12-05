@@ -34,6 +34,22 @@ In this section our group dropped the currency symbols so we could begin the mat
 First we calculated the price difference in CAD by subtracting the 'Price with Tax' column by 8.55 the canadian price. Then we filtered out Canada's date due to it always being zerio as we subtracting from Canada. After this, we created a bar chart from this data and added a red line for Canada's price difference. For this we used **plt.()**. The result is shown below:
 ![image](https://github.com/user-attachments/assets/bea91f0f-beab-432e-8cf9-7bb33ddc1bce)
 
+### 7. Applying Our External Factor
+In this next section we applied our extrernal factors of exchange rates which was discussed in the external factors section above. We then used **.drop** to drop the domain code, domain, area code and all other sections in the table we sourced from the FAO website. We also replaced 'Iran (Islamic Republic of)' with just 'Iran' using a **for** loop.
+
+### 8. Bringing it All Together
+In these penultimate sections using **.join** we joined the table from our 'Calculations and Visualizations' section with the table from 'Applying Our External Factor' This can be seen below:
+
+We then created a table with country and apple production which can be seen below:
+![image](https://github.com/user-attachments/assets/e323401e-469f-4eee-b3ec-b9fc48e73f0b)
+
+Finally we created a scatter plot of Price Difference vs Apple Production to show the correlation. This is shown below:
+![image](https://github.com/user-attachments/assets/81877f84-72aa-4a28-acc5-b85d2c6c7b94)
+
+### 9. Calculating Z Score
+Using a function we converted the array to standard units and then calculated the Z score which was -0.16 (rounded to 2 decimal places)
+
+## Conclusion
 
 ## Citations
 Numbeo. (n.d.). Cost of living country price rankings. Numbeo. 
