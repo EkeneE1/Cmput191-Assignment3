@@ -32,21 +32,21 @@ VAT stands for Value-Added Tax (rate), it is a consumption tax that is levied on
 We cleaned the data by removing the unwanted countries and removing extra spaces from the values.
 
 ### 6. Calculations and Visualizations
-First, we calculated the price difference in CAD by subtracting the 'Price with Tax' column by 8.55, which is the Canadian price. Then we filtered out Canada's data due to it always being zero as we take references from Canada. After this, we created a bar chart from this data and added a red line for Canada's price difference. For this we used **plt.()** function. The result is shown below:
-     ###![image](https://github.com/user-attachments/assets/bea91f0f-beab-432e-8cf9-7bb33ddc1bce)
+First, we calculated the price difference in CAD by subtracting the 'Price with Tax' column by 8.55, which is the Canadian price. Then we filtered out Canada's data as it will always give zero price difference as we take references from Canada. After this, we created a bar chart from this data and added a red line for Canada's price difference. For this we used **plt.()** function. The result is shown below:
+     ### ![image](https://github.com/user-attachments/assets/bea91f0f-beab-432e-8cf9-7bb33ddc1bce)
 
 ### 7. Applying Our External Factor
-In this next section, we imported data on Apple production in each country in units of tonnes. This was chosen as the external factor as we have extensive data on it which can be correlated with prices of Apples. The csv file for the Production Quantity data was imported from the Food and Agricultural Organization of the United Nations website.  We then used **.drop** to drop the domain code, domain, area code and all other sections in the table that were not required for analysis. We also replaced 'Iran (Islamic Republic of)' with just 'Iran' to correctly join the table with our original table.
+In this next section, we imported data on Apple production in each country in units of tonnes. This was chosen as the external factor as we have extensive data on it which can be correlated with prices of Apples. The csv file for the Production Quantity data was imported from the Food and Agricultural Organization of the United Nations website.  We then used **.drop** to drop the domain code, domain, area code and all other sections in the table that were not required for analysis. We also replaced 'Iran (Islamic Republic of)' with just 'Iran' using the **replace()** function to correctly join the table with our original table.
 
 ### 8. Bringing it All Together
-In these penultimate sections using **.join** we joined the table from our 'Calculations and Visualizations' section with the table from 'Applying Our External Factor' This can be seen below:
+The two tables were joined using **.join** we joined the table from our 'Calculations and Visualizations' section with the table from 'Applying Our External Factor' This can be seen below:
 ![Screenshot 2024-12-04 214804](https://github.com/user-attachments/assets/ac776534-e11a-4c82-bb49-b34a3e5630da)
 
-We then created a bar graph to join the price differences:
+We then created a bar graph to show the price differences for each country with respect to Canada:
 ![image](https://github.com/user-attachments/assets/bc5c5456-92ed-4936-8206-6aa42034f0f5)
 
 
-We then created a table with country and apple production which can be seen below:
+Then the bar graph with country and apple production was generated which can be seen below:
 ![image](https://github.com/user-attachments/assets/e323401e-469f-4eee-b3ec-b9fc48e73f0b)
 
 Finally, we created a scatter plot of Price Difference vs Apple Production to show the correlation. This is shown below:
