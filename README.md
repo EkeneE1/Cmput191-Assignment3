@@ -1,5 +1,5 @@
 # APPLES- Cuz An Apple A Day, Keeps the Doc Away!
-
+Submitted by: Saurabh Bhardwaj(bhardwa2); Zainab Sajjad (zsajjad1); Ekene
 
 ## The Chosen Product 🍎
 The product we have chosen are Apples. Countries from all across the globe consume a substantial amount of apples. So this provides a wide dataset from many different currencies, regions and lifestyles around the world! 
